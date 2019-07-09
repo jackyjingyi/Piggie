@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_18dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_mongo"
+            android:icon="@drawable/ic_pets_black_18dp"
+            android:title="@string/menu_mongo" />
+        <item
+            android:id="@+id/nav_sequel"
+            android:icon="@drawable/ic_pets_black_18dp"
+            android:title="@string/menu_sequel" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_insert_chart_black_18dp"
+            android:title="@string/menu_report" />
+    </group>
+
+</menu>
